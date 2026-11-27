@@ -1,0 +1,12 @@
+// Eigen kleuren. Dit moet BOVEN de Bootstrap-import staan,
+// anders gebruikt Bootstrap zijn eigen standaardkleuren.
+$primary: #1f4e79;   // rustig donkerblauw
+$secondary: #5a6b7b; // grijsblauw
+
+// Bootstrap inladen met onze eigen kleuren
+@import "bootstrap/scss/bootstrap";
+
+// Eigen styling komt hieronder
+body {
+  background-color: #ffffff;
+}
